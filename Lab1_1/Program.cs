@@ -1,0 +1,10 @@
+﻿Console.Write("Введите x:");
+double x = double.Parse(Console.ReadLine());
+Console.Write("Введите y:");
+double y = double.Parse(Console.ReadLine());
+Console.Write("Введите z:");
+double z = double.Parse(Console.ReadLine());
+Console.Write("Введите c:");
+double c = double.Parse(Console.ReadLine());
+double G = (Math.Tan(Math.Pow(x, 4) - 6) - Math.Pow(Math.Cos(z + Math.Pow(x, 3) * y), 3*x)) / (Math.Pow(Math.Cos(Math.Pow(x, 3) * Math.Pow(c, 2)), 2));
+Console.WriteLine($"G={G:F2}");
