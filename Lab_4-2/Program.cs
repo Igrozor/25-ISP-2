@@ -1,4 +1,6 @@
-﻿int[,] mas = new int[5, 5];
+﻿//Высокий уровень. 23 Вариант.
+
+int[,] mas = new int[5, 5];
 for (int i = 0; i < mas.GetLength(0); i++)
 {
     for (int j = 0; j < mas.GetLength(1); j++)
