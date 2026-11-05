@@ -1,0 +1,357 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #162831;
+    color: white;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+h1, h2, h3, .title {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.leaf {
+    width: 28px;
+    height: 14px;
+    background: #018abe;
+    border-radius: 0 14px 0 14px;
+}
+
+.leaf.white {
+    background: white;
+}
+
+.leaf.small {
+    width: 16px;
+    height: 9px;
+}
+
+.btn {
+    background: #018abe;
+    color: white;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn.white {
+    background: white;
+    color: #018abe;
+    padding: 12px 26px;
+}
+
+.header {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    width: 1296px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 62px;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+    font-size: 15px;
+}
+
+.menu a:hover {
+    color: #7fd3f5;
+}
+
+.section {
+    width: 1296px;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.hero {
+    position: relative;
+    height: 600px;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero::before {
+    position: absolute;
+    inset: 0;
+    background: rgba(36, 92, 115, 0.25);
+}
+
+.hero-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hero-sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    font-family: Georgia, serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.hero h1,
+.hero h2 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 256px 256px;
+    gap: 26px 25px;
+}
+
+.card {
+    display: flex;
+    align-items: flex-end;
+    padding: 28px 32px;
+    border-radius: 8px;
+    background: linear-gradient(rgba(0, 70, 94, 0.55), rgba(0, 60, 80, 0.85)),
+                url(images/session-bg.jpg) center / cover;
+}
+
+.card p {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.4;
+    max-width: 300px;
+}
+
+.card.big {
+    grid-row: span 2;
+    border-bottom: 5px solid #018abe;
+    padding: 0 40px 60px;
+}
+
+.card.big p {
+    font-size: 22px;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.review {
+    width: 30%;
+    padding: 36px 40px;
+    border-radius: 8px;
+    background: #0e4d63;
+    color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.review h4 {
+    font-size: 17px;
+}
+
+.review p {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.review.active {
+    width: 38%;
+    background: #018abe;
+    color: white;
+    padding: 40px;
+}
+
+.review.active h4 {
+    color: white;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.feature img {
+    width: 50%;
+    border-radius: 8px;
+}
+
+.feature .text {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.feature h3 {
+    font-size: 22px;
+}
+
+.feature p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.prices {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.price-list {
+    width: 50%;
+    padding-left: 90px;
+}
+
+.price-list li {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    height: 46px;
+    font-size: 16px;
+}
+
+.price-list b {
+    flex: 1;
+    text-align: right;
+    font-family: Georgia, serif;
+    font-size: 17px;
+}
+
+.certificate {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.certificate img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.certificate p {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.map {
+    width: 856px;
+    height: 603px;
+    border-radius: 8px;
+    border: 0;
+}
+
+.pools {
+    width: 392px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.pool {
+    background: #018abe;
+    padding: 40px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.pool h3 {
+    font-size: 22px;
+}
+
+.pool p {
+    font-size: 15px;
+}
+
+.footer {
+    width: 1296px;
+    padding: 34px 0 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #e4ecef;
+}
