@@ -1,0 +1,89 @@
+#Задание 1
+def guess_number(secret, max_attempts):
+    attempts = max_attempts
+    
+    while attempts > 0:
+        number = int(input("Введите число: "))
+        attempts -=1
+        if number == secret:
+            print("Победа! Вы угадали число!")
+            return
+        elif number > secret:
+            print("Меньше!")
+        else:
+            print("Больше!")
+    print(f"Попытки закончились! Было загадано: {secret}")
+guess_number(5, 5)
+
+#Задание 2
+print( )
+def even_stats(limit):
+    end = limit
+    start = 1
+    sum = 0
+    amount = 0
+    
+    if end < 2:
+        print("Четных чисел нет")
+        return 0 
+        
+    while start < end:
+        if start % 2 == 0:
+            amount += 1
+            sum += start
+        start += 1  
+        
+    return (sum/amount)
+
+print(even_stats(5))
+
+#Задание 3
+print( )
+def calculate_deposit(start_money, percent, target_money):
+    months=0
+    if (percent<=0 or target_money <= start_money):
+        print("Это предупреждение.")
+        return 0
+    while start_money < target_money:
+        start_money = start_money + start_money * (percent / 100)  
+        months+=1
+    return months
+print(calculate_deposit(100, 20, 200))
+
+#Задание 4
+print( )
+def give_change(price, paid):
+    if paid < price:
+        print ("Денег недостаточно")
+        return 0
+    elif paid == price:
+        print ("Сдача не нужна")
+        return 0
+    else:
+        paid-=price
+        while paid >= 10:
+            paid-=10
+            print(10 )
+        while paid >= 5:
+            paid-=5
+            print(5 )
+        while paid >= 2:
+            paid-=2
+            print(2 )
+        while paid >= 1:
+            paid-=1
+            print(1 )
+give_change(200, 253)
+            
+#Задание 5
+print( )
+def is_prime(n):
+    divisor = 2
+    if n<=1:
+        return False
+    while divisor < n:
+        if n%divisor == 0:
+            return False
+        divisor += 1
+        return True
+print(is_prime(11))
