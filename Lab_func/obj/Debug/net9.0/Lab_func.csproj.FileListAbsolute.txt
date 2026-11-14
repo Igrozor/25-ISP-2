@@ -1,0 +1,15 @@
+C:\Users\zibrov\source\repos\Laba 1\Lab_func\obj\Debug\net9.0\Lab_func.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zibrov\source\repos\Laba 1\Lab_func\obj\Debug\net9.0\Lab_func.AssemblyInfoInputs.cache
+C:\Users\zibrov\source\repos\Laba 1\Lab_func\obj\Debug\net9.0\Lab_func.AssemblyInfo.cs
+C:\Users\zibrov\source\repos\Laba 1\Lab_func\obj\Debug\net9.0\Lab_func.csproj.CoreCompileInputs.cache
+C:\Users\zibrov\source\repos\Laba 1\Lab_func\obj\Debug\net9.0\Lab_func.sourcelink.json
+C:\Users\zibrov\source\repos\Laba 1\Lab_func\bin\Debug\net9.0\Lab_func.exe
+C:\Users\zibrov\source\repos\Laba 1\Lab_func\bin\Debug\net9.0\Lab_func.deps.json
+C:\Users\zibrov\source\repos\Laba 1\Lab_func\bin\Debug\net9.0\Lab_func.runtimeconfig.json
+C:\Users\zibrov\source\repos\Laba 1\Lab_func\bin\Debug\net9.0\Lab_func.dll
+C:\Users\zibrov\source\repos\Laba 1\Lab_func\bin\Debug\net9.0\Lab_func.pdb
+C:\Users\zibrov\source\repos\Laba 1\Lab_func\obj\Debug\net9.0\Lab_func.dll
+C:\Users\zibrov\source\repos\Laba 1\Lab_func\obj\Debug\net9.0\refint\Lab_func.dll
+C:\Users\zibrov\source\repos\Laba 1\Lab_func\obj\Debug\net9.0\Lab_func.pdb
+C:\Users\zibrov\source\repos\Laba 1\Lab_func\obj\Debug\net9.0\Lab_func.genruntimeconfig.cache
+C:\Users\zibrov\source\repos\Laba 1\Lab_func\obj\Debug\net9.0\ref\Lab_func.dll
