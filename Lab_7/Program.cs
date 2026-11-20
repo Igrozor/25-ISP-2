@@ -74,6 +74,9 @@
 
 //{((DVD) ? "DVD" : "")}
 
+
+//Средний уровень 8 вариант
+
     Person[] people = new Person[5];
 
     for (int i = 0; i < people.Length; i++)
