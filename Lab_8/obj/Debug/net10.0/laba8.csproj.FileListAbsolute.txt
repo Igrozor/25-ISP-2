@@ -1,0 +1,16 @@
+C:\Users\Weltobruh\source\repos\25-ISP-2-csharp\laba8\bin\Debug\net10.0\laba8.exe
+C:\Users\Weltobruh\source\repos\25-ISP-2-csharp\laba8\bin\Debug\net10.0\laba8.deps.json
+C:\Users\Weltobruh\source\repos\25-ISP-2-csharp\laba8\bin\Debug\net10.0\laba8.runtimeconfig.json
+C:\Users\Weltobruh\source\repos\25-ISP-2-csharp\laba8\bin\Debug\net10.0\laba8.dll
+C:\Users\Weltobruh\source\repos\25-ISP-2-csharp\laba8\bin\Debug\net10.0\laba8.pdb
+C:\Users\Weltobruh\source\repos\25-ISP-2-csharp\laba8\obj\Debug\net10.0\laba8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Weltobruh\source\repos\25-ISP-2-csharp\laba8\obj\Debug\net10.0\laba8.AssemblyInfoInputs.cache
+C:\Users\Weltobruh\source\repos\25-ISP-2-csharp\laba8\obj\Debug\net10.0\laba8.AssemblyInfo.cs
+C:\Users\Weltobruh\source\repos\25-ISP-2-csharp\laba8\obj\Debug\net10.0\laba8.csproj.CoreCompileInputs.cache
+C:\Users\Weltobruh\source\repos\25-ISP-2-csharp\laba8\obj\Debug\net10.0\laba8.sourcelink.json
+C:\Users\Weltobruh\source\repos\25-ISP-2-csharp\laba8\obj\Debug\net10.0\laba8.dll
+C:\Users\Weltobruh\source\repos\25-ISP-2-csharp\laba8\obj\Debug\net10.0\refint\laba8.dll
+C:\Users\Weltobruh\source\repos\25-ISP-2-csharp\laba8\obj\Debug\net10.0\laba8.pdb
+C:\Users\Weltobruh\source\repos\25-ISP-2-csharp\laba8\obj\Debug\net10.0\laba8.genruntimeconfig.cache
+C:\Users\Weltobruh\source\repos\25-ISP-2-csharp\laba8\obj\Debug\net10.0\ref\laba8.dll
+C:\Users\Weltobruh\source\repos\25-ISP-2-csharp\laba8\obj\Debug\net10.0\laba8.csproj.Up2Date
