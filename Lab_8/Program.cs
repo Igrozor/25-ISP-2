@@ -1,4 +1,6 @@
-﻿using System.Data;
+//Средний уровень 8 вариант
+
+using System.Data;
 
 Console.Write("Количество поездов: ");
 int n = int.Parse(Console.ReadLine());
