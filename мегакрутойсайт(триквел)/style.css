@@ -67,5 +67,5 @@ h1, h2, h3, .title {
 .btns{
     display: flex;
     justify-items: end;
-    width: 30%;
+    width: 8%;
 }
